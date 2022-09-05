@@ -4,3 +4,4 @@
  Display the content of /etc/passwd and /etc/hosts 
 
  this display four files codes 
+e- \n 22 users and home files
