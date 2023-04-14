@@ -1,0 +1,21 @@
+https://medium.com/@galaxyictcontact/what-happens-when-you-type-google-com-in-your-browser-and-press-enter-5d8f781309d8
+When you type https://www.google.com in your browser and press Enter, several processes occur in the background to bring up the Google homepage on your screen. Let's take a closer look at each of these steps:
+
+DNS request: The first step is a Domain Name System (DNS) request. Your browser sends a request to a DNS server to resolve the domain name "www.google.com" into an IP address. This IP address is required to establish a connection with the web server that hosts the Google website.
+
+TCP/IP: Once your browser receives the IP address from the DNS server, it establishes a Transmission Control Protocol (TCP) connection with the server. The TCP protocol is responsible for ensuring reliable data transfer between your browser and the server. This process is known as the TCP handshake.
+
+Firewall: Next, the request passes through any firewalls that may be in place, which act as a security measure to protect the web server from unauthorized access.
+
+HTTPS/SSL: After the firewall, the connection is secured using the HTTPS protocol, which encrypts the data transmitted between your browser and the server. This is achieved through the use of Secure Sockets Layer (SSL) or Transport Layer Security (TLS) encryption protocols.
+
+Load-balancer: The request then goes through a load-balancer, which distributes incoming traffic to multiple web servers. This ensures that the website can handle a high volume of traffic without crashing.
+
+Web server: The load-balancer forwards the request to a web server that hosts the Google website. The web server receives the request and processes it, returning the requested webpage to your browser.
+
+Application server: In some cases, the web server may need to interact with an application server to process the request. An application server is a software framework that provides the functionality required to process dynamic content on a website, such as user authentication or database access.
+
+Database: If the website requires access to a database to retrieve data, the web server sends a request to a database server to retrieve the necessary data. The database server processes the request and returns the requested data to the web server, which then returns it to your browser.
+
+In summary, when you type https://www.google.com in your browser and press Enter, a series of processes occur behind the scenes, including DNS resolution, TCP/IP connection establishment, firewall security, HTTPS/SSL encryption, load-balancing, web server processing, application server interaction, and database access. These processes work together to deliver the Google homepage to your screen.
+
